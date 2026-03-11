@@ -159,17 +159,20 @@ Across different methods, activation maps converge on the tumor areas, demonstra
 ---
 
 ## Repository Structure
-.
-├── BestModel.ipynb # Final optimized model and evaluation
-├── EfficientNetV2S.ipynb # Baseline EfficientNetV2-S implementation
-├── EfficientNetV2STuned.ipynb # Optimized training (AdamW + augmentation)
-├── XceptionNet.ipynb # Alternative CNN architecture experiment
-├── ECA+GAM.ipynb # Attention mechanisms experiment
-├── CBAM.ipynb # Convolutional Block Attention Module experiment
-├── LabelSmoothing.ipynb # Label smoothing training experiment
-│
-└── requirements.txt # Python dependencies for reproducing experiments
 
+```text
+.
+├── BestModel.ipynb              - Final optimized model and evaluation
+├── EfficientNetV2S.ipynb        - Baseline EfficientNetV2-S implementation
+├── EfficientNetV2STuned.ipynb   - Optimized training (AdamW + augmentation)
+├── XceptionNet.ipynb            - Alternative CNN architecture experiment
+├── ECA+GAM.ipynb                - Attention mechanisms experiment
+├── CBAM.ipynb                   - Convolutional Block Attention Module experiment
+├── LabelSmoothing.ipynb         - Label smoothing training experiment
+│
+└── requirements.txt             - Python dependencies for reproducing experiments
+
+```
 
 ---
 
